@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voting Machine System</title>
+    <link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+   <header>
+    <h3>Voting Machine</h3>
+   </header>
+   <main>
+        <div class="boxes">
+            <div class="box1 box">
+                <button class="parties" id="pti">
+                    <p>PTI</p> 
+                </button>
+            </div>
+            <div class="box2 box">
+                <button class="parties" id="pmln">
+                    <p>PMLN</p>
+                </button>
+            </div>
+            <div class="box3 box">
+                <button class="parties" id="mqm">
+                    <p>MQM</p>
+                </button>
+            </div>
+            <div class="box4 box">
+                <button class="parties" id="ppp">
+                    <p>PPP</p>
+                </button>
+            </div>
+            <div class="box5 box">
+                <button class="parties" id="tlp">
+                    <p>TLP</p>
+                </button>
+            </div>
+        </div>
+        <div id="vote-results">
+            <p id="pti-votes">PTI Votes: 0</p>
+            <p id="pmln-votes">PMLN Votes: 0</p>
+            <p id="mqm-votes">MQM Votes: 0</p>
+            <p id="ppp-votes">PPP Votes: 0</p>
+            <p id="tlp-votes">TLP Votes: 0</p>
+            <p id="total-votes">Total Votes: 0</p>
+            <p id="winner">Winner: N/A</p>
+        </div>
+   </main>
+   <footer>
+        <div class="final"></div>
+        <button id="submit-vote">Submit Vote</button>
+        <button id="count">Total Count</button>
+        <button id="winner-button">Determine Winner</button>
+        <button id="reset-count">Reset Count</button>
+   </footer>
+   <script src="app.js"></script>    
+</body>
+</html>
